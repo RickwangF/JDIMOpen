@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'JDIMOpen_Example' do
+  pod 'JDIMOpen', :path => '../'
+
+  target 'JDIMOpen_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
