@@ -21,15 +21,16 @@ Pod::Spec.new do |s|
   Just IM Module Of JD used for test
                        DESC
 
-  s.homepage         = 'https://github.com/RickwangF/JDIMOpen
+  s.homepage         = 'https://github.com/RickwangF/JDIMOpen'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'woshiwwy16@126.com' => 'woshiwwy16@126.com' }
   s.source           = { :git => 'https://github.com/RickwangF/JDIMOpen.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
+  s.swift_version = '4.0'
 
   s.source_files = 'JDIMOpen/Classes/**/*'
-  s.resources = ['/JDIMOpen/Assets/images.bundle', '/JDIMOpen/Assets/animations.bundle', '/JDIMOpen/Assets/emojis.bundle']
+  s.resources = ['JDIMOpen/Assets/images.bundle', 'JDIMOpen/Assets/animations.bundle', 'JDIMOpen/Assets/emojis.bundle']
   
   # s.resource_bundles = {
   #   'JDIMOpen' => ['JDIMOpen/Assets/*.png']
@@ -37,6 +38,7 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
+  s.static_framework = true
   s.dependency 'MJExtension'
   s.dependency 'SDWebImage'
   s.dependency 'NIMSDK_LITE'
