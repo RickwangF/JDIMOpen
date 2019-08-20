@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10E22E96A913B99F5CD024D40BC896AB /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE214E989A7FA8153DEFD6F336CD5E0 /* ReplaceMe.m */; };
+		154901C425DE00E1E6D386FEDADDC03F /* JDIMOpen-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B41F701808CD56AD91ED78A1B28CE5 /* JDIMOpen-dummy.m */; };
+		1F2E660E34C810FC1EA37C210AA5161F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		799666BE3A76885AE967B083F00DBE6D /* Pods-JDIMOpen_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EE6D7AE1F1687BA6A717B022E7B75D /* Pods-JDIMOpen_Tests-dummy.m */; };
+		79DA2898AE07C3C13C906885BCDA2298 /* Pods-JDIMOpen_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7464D889C007C640F35E21052890E45B /* Pods-JDIMOpen_Example-dummy.m */; };
+		8316A4823E57FC1E73A620420914F974 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		98C1C706891642402A1BAF29C8DE7CC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A97F01CCB2D8ED8ABC0FF28626028D5F /* Pods-JDIMOpen_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0773EA16ED39F3D41D13E5845F7C6AB /* Pods-JDIMOpen_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBA3B800D67AF300B9490B34DA8C4A43 /* Pods-JDIMOpen_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D309F9E2FFCBD76D90F68694D9FF9374 /* Pods-JDIMOpen_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8AF1F1F6569BC00B733847DEC284FA4 /* JDIMOpen-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B41472508A0B37681847AABB80A527 /* JDIMOpen-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9F3F2C4F39D477140D25EB233814B0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B2FC5428968E17D6E6AAFEC961C78FB;
+			remoteInfo = "Pods-JDIMOpen_Example";
+		};
+		DB57218956A6F781E7B48A11FD5659A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47C060B5DFB7EA05C8B18949FC177E75;
+			remoteInfo = JDIMOpen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AAE3B31BA194C0824F0FA5D25930C5C /* Pods-JDIMOpen_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JDIMOpen_Example.modulemap"; sourceTree = "<group>"; };
+		0BF075353CB15063EED2F65448E62024 /* Pods-JDIMOpen_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JDIMOpen_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		113F3E6F4B069B3FBC4A66B6BC104CC1 /* JDIMOpen-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JDIMOpen-Info.plist"; sourceTree = "<group>"; };
+		17F13FEB71E80F487777F3A6576AE2F8 /* JDIMOpen.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JDIMOpen.xcconfig; sourceTree = "<group>"; };
+		1CE28D431A69A9AE0438967EFD379356 /* Pods-JDIMOpen_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDIMOpen_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2BE214E989A7FA8153DEFD6F336CD5E0 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = JDIMOpen/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		2F3273B8B50F22C9A21D4C3C665FDC29 /* Pods_JDIMOpen_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JDIMOpen_Example.framework; path = "Pods-JDIMOpen_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		40AF8F6E407A679739DAD8AEE96E8E96 /* Pods-JDIMOpen_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JDIMOpen_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		41061D3183A231B745D7E2D57EE45284 /* Pods_JDIMOpen_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JDIMOpen_Tests.framework; path = "Pods-JDIMOpen_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BB78B2B1615E0FE115BF8081BCB6E56 /* Pods-JDIMOpen_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDIMOpen_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5459E395C7C5E7AF1ED1934588C6EAED /* Pods-JDIMOpen_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JDIMOpen_Tests-Info.plist"; sourceTree = "<group>"; };
+		54B41F701808CD56AD91ED78A1B28CE5 /* JDIMOpen-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JDIMOpen-dummy.m"; sourceTree = "<group>"; };
+		54EE6D7AE1F1687BA6A717B022E7B75D /* Pods-JDIMOpen_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JDIMOpen_Tests-dummy.m"; sourceTree = "<group>"; };
+		562F35921E107E81910C9EC9D16A9C5F /* Pods-JDIMOpen_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JDIMOpen_Example-frameworks.sh"; sourceTree = "<group>"; };
+		604E88C18FAD7740EDCB5895CB9E194A /* JDIMOpen.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JDIMOpen.modulemap; sourceTree = "<group>"; };
+		7464D889C007C640F35E21052890E45B /* Pods-JDIMOpen_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JDIMOpen_Example-dummy.m"; sourceTree = "<group>"; };
+		80386E15199D67B80869484AD68C7147 /* Pods-JDIMOpen_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JDIMOpen_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		81B41472508A0B37681847AABB80A527 /* JDIMOpen-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JDIMOpen-umbrella.h"; sourceTree = "<group>"; };
+		93BC79D8DE9AA213917F0EB1A0BD28FA /* Pods-JDIMOpen_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JDIMOpen_Tests.modulemap"; sourceTree = "<group>"; };
+		98A59AA2D9D6E30ED125F7C2FE766EB3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A761AC59D3EEDE37EEE5B154C1ABBEBA /* Pods-JDIMOpen_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDIMOpen_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B05BF8CF3F0DCB4DB876725D26DF2F19 /* JDIMOpen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JDIMOpen.framework; path = JDIMOpen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC7D3436EE95972EFC28A22FC6E417A7 /* JDIMOpen-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JDIMOpen-prefix.pch"; sourceTree = "<group>"; };
+		C0773EA16ED39F3D41D13E5845F7C6AB /* Pods-JDIMOpen_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JDIMOpen_Example-umbrella.h"; sourceTree = "<group>"; };
+		CC48691FD1E46FCED2A4F68B0F391042 /* Pods-JDIMOpen_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JDIMOpen_Example-Info.plist"; sourceTree = "<group>"; };
+		D309F9E2FFCBD76D90F68694D9FF9374 /* Pods-JDIMOpen_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JDIMOpen_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D33689FE809595D9A7939DFDC71B9AFA /* Pods-JDIMOpen_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JDIMOpen_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E140D034614E31BD1151B900691F69B4 /* Pods-JDIMOpen_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDIMOpen_Example.release.xcconfig"; sourceTree = "<group>"; };
+		ECB13645A752ECFB5704571624A283C2 /* JDIMOpen.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JDIMOpen.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EF261C94DF1A303F0F388D49956CC1A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CFD13898ABE171FB2DD6A211AE67028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F2E660E34C810FC1EA37C210AA5161F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B82E5FFA417C3DA12BDF6042FB4ADD22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C1C706891642402A1BAF29C8DE7CC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCA4C37F9D28F0D222C411EC166E50F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8316A4823E57FC1E73A620420914F974 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F7F2E31A4FD76379A0EE53A39BB84F7 /* JDIMOpen */ = {
+			isa = PBXGroup;
+			children = (
+				2BE214E989A7FA8153DEFD6F336CD5E0 /* ReplaceMe.m */,
+				AC1B1A30D30BA3812386DCBCDAEE7A3E /* Pod */,
+				EBE75E14F33B9652C21D54E51F51789E /* Support Files */,
+			);
+			name = JDIMOpen;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4BD4A2A3C43B160F8EBA348FD3888A97 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F7F2E31A4FD76379A0EE53A39BB84F7 /* JDIMOpen */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		554528191AA308BFC19C4CE7F2C312A2 /* Pods-JDIMOpen_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0AAE3B31BA194C0824F0FA5D25930C5C /* Pods-JDIMOpen_Example.modulemap */,
+				80386E15199D67B80869484AD68C7147 /* Pods-JDIMOpen_Example-acknowledgements.markdown */,
+				D33689FE809595D9A7939DFDC71B9AFA /* Pods-JDIMOpen_Example-acknowledgements.plist */,
+				7464D889C007C640F35E21052890E45B /* Pods-JDIMOpen_Example-dummy.m */,
+				562F35921E107E81910C9EC9D16A9C5F /* Pods-JDIMOpen_Example-frameworks.sh */,
+				CC48691FD1E46FCED2A4F68B0F391042 /* Pods-JDIMOpen_Example-Info.plist */,
+				C0773EA16ED39F3D41D13E5845F7C6AB /* Pods-JDIMOpen_Example-umbrella.h */,
+				A761AC59D3EEDE37EEE5B154C1ABBEBA /* Pods-JDIMOpen_Example.debug.xcconfig */,
+				E140D034614E31BD1151B900691F69B4 /* Pods-JDIMOpen_Example.release.xcconfig */,
+			);
+			name = "Pods-JDIMOpen_Example";
+			path = "Target Support Files/Pods-JDIMOpen_Example";
+			sourceTree = "<group>";
+		};
+		7DFC25BE63DD89CE3EAD82D0290CB3A0 /* Pods-JDIMOpen_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				93BC79D8DE9AA213917F0EB1A0BD28FA /* Pods-JDIMOpen_Tests.modulemap */,
+				0BF075353CB15063EED2F65448E62024 /* Pods-JDIMOpen_Tests-acknowledgements.markdown */,
+				40AF8F6E407A679739DAD8AEE96E8E96 /* Pods-JDIMOpen_Tests-acknowledgements.plist */,
+				54EE6D7AE1F1687BA6A717B022E7B75D /* Pods-JDIMOpen_Tests-dummy.m */,
+				5459E395C7C5E7AF1ED1934588C6EAED /* Pods-JDIMOpen_Tests-Info.plist */,
+				D309F9E2FFCBD76D90F68694D9FF9374 /* Pods-JDIMOpen_Tests-umbrella.h */,
+				1CE28D431A69A9AE0438967EFD379356 /* Pods-JDIMOpen_Tests.debug.xcconfig */,
+				4BB78B2B1615E0FE115BF8081BCB6E56 /* Pods-JDIMOpen_Tests.release.xcconfig */,
+			);
+			name = "Pods-JDIMOpen_Tests";
+			path = "Target Support Files/Pods-JDIMOpen_Tests";
+			sourceTree = "<group>";
+		};
+		9E4E2E0322E487A05EB618CA5F2D2126 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				554528191AA308BFC19C4CE7F2C312A2 /* Pods-JDIMOpen_Example */,
+				7DFC25BE63DD89CE3EAD82D0290CB3A0 /* Pods-JDIMOpen_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AC1B1A30D30BA3812386DCBCDAEE7A3E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				ECB13645A752ECFB5704571624A283C2 /* JDIMOpen.podspec */,
+				98A59AA2D9D6E30ED125F7C2FE766EB3 /* LICENSE */,
+				EF261C94DF1A303F0F388D49956CC1A4 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4BD4A2A3C43B160F8EBA348FD3888A97 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E225AF59F87EF7F15AA8106268CBBA28 /* Products */,
+				9E4E2E0322E487A05EB618CA5F2D2126 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E225AF59F87EF7F15AA8106268CBBA28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B05BF8CF3F0DCB4DB876725D26DF2F19 /* JDIMOpen.framework */,
+				2F3273B8B50F22C9A21D4C3C665FDC29 /* Pods_JDIMOpen_Example.framework */,
+				41061D3183A231B745D7E2D57EE45284 /* Pods_JDIMOpen_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBE75E14F33B9652C21D54E51F51789E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				604E88C18FAD7740EDCB5895CB9E194A /* JDIMOpen.modulemap */,
+				17F13FEB71E80F487777F3A6576AE2F8 /* JDIMOpen.xcconfig */,
+				54B41F701808CD56AD91ED78A1B28CE5 /* JDIMOpen-dummy.m */,
+				113F3E6F4B069B3FBC4A66B6BC104CC1 /* JDIMOpen-Info.plist */,
+				BC7D3436EE95972EFC28A22FC6E417A7 /* JDIMOpen-prefix.pch */,
+				81B41472508A0B37681847AABB80A527 /* JDIMOpen-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JDIMOpen";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0405F6864DC86FE3C48F6A7291795E40 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97F01CCB2D8ED8ABC0FF28626028D5F /* Pods-JDIMOpen_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBD2FFB6FA6CFBF9E6DE4AF05687E66 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBA3B800D67AF300B9490B34DA8C4A43 /* Pods-JDIMOpen_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16A51DFE67FCD7380B45B16B334B7B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8AF1F1F6569BC00B733847DEC284FA4 /* JDIMOpen-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B2FC5428968E17D6E6AAFEC961C78FB /* Pods-JDIMOpen_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B615E402D6E5431DB4BC306609B9E53E /* Build configuration list for PBXNativeTarget "Pods-JDIMOpen_Example" */;
+			buildPhases = (
+				0405F6864DC86FE3C48F6A7291795E40 /* Headers */,
+				0883D3384B93E6A43D1FA6B351FDC704 /* Sources */,
+				3CFD13898ABE171FB2DD6A211AE67028 /* Frameworks */,
+				2A3972DE4F2DC884159DD714EAB1B75C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C9B761240DFDF7F0745E5218141F7F7 /* PBXTargetDependency */,
+			);
+			name = "Pods-JDIMOpen_Example";
+			productName = "Pods-JDIMOpen_Example";
+			productReference = 2F3273B8B50F22C9A21D4C3C665FDC29 /* Pods_JDIMOpen_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		47C060B5DFB7EA05C8B18949FC177E75 /* JDIMOpen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F80EB7DD73C71E18E701A770515445E1 /* Build configuration list for PBXNativeTarget "JDIMOpen" */;
+			buildPhases = (
+				F16A51DFE67FCD7380B45B16B334B7B4 /* Headers */,
+				C07DB55743EF111B9E60B7B14BBB2BB9 /* Sources */,
+				B82E5FFA417C3DA12BDF6042FB4ADD22 /* Frameworks */,
+				374D9579EF0EC5E070DACD59BD4A98A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JDIMOpen;
+			productName = JDIMOpen;
+			productReference = B05BF8CF3F0DCB4DB876725D26DF2F19 /* JDIMOpen.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BDA2E541819D270BBBA72A76F043D4B9 /* Pods-JDIMOpen_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9805089289DA5FF4CFCDEE2B616D758B /* Build configuration list for PBXNativeTarget "Pods-JDIMOpen_Tests" */;
+			buildPhases = (
+				CFBD2FFB6FA6CFBF9E6DE4AF05687E66 /* Headers */,
+				DCE01AF97F6458B26967160496EE68B4 /* Sources */,
+				CFCA4C37F9D28F0D222C411EC166E50F /* Frameworks */,
+				3AD104D0CFB5CAE5958513645C026A0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4314871C74AC2AC524A04D5076439829 /* PBXTargetDependency */,
+			);
+			name = "Pods-JDIMOpen_Tests";
+			productName = "Pods-JDIMOpen_Tests";
+			productReference = 41061D3183A231B745D7E2D57EE45284 /* Pods_JDIMOpen_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E225AF59F87EF7F15AA8106268CBBA28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47C060B5DFB7EA05C8B18949FC177E75 /* JDIMOpen */,
+				0B2FC5428968E17D6E6AAFEC961C78FB /* Pods-JDIMOpen_Example */,
+				BDA2E541819D270BBBA72A76F043D4B9 /* Pods-JDIMOpen_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A3972DE4F2DC884159DD714EAB1B75C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		374D9579EF0EC5E070DACD59BD4A98A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AD104D0CFB5CAE5958513645C026A0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0883D3384B93E6A43D1FA6B351FDC704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79DA2898AE07C3C13C906885BCDA2298 /* Pods-JDIMOpen_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07DB55743EF111B9E60B7B14BBB2BB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				154901C425DE00E1E6D386FEDADDC03F /* JDIMOpen-dummy.m in Sources */,
+				10E22E96A913B99F5CD024D40BC896AB /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE01AF97F6458B26967160496EE68B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				799666BE3A76885AE967B083F00DBE6D /* Pods-JDIMOpen_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4314871C74AC2AC524A04D5076439829 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JDIMOpen_Example";
+			target = 0B2FC5428968E17D6E6AAFEC961C78FB /* Pods-JDIMOpen_Example */;
+			targetProxy = A9F3F2C4F39D477140D25EB233814B0C /* PBXContainerItemProxy */;
+		};
+		6C9B761240DFDF7F0745E5218141F7F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JDIMOpen;
+			target = 47C060B5DFB7EA05C8B18949FC177E75 /* JDIMOpen */;
+			targetProxy = DB57218956A6F781E7B48A11FD5659A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C57CEDD248FF00B32CAA2F9E8B9F9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BB78B2B1615E0FE115BF8081BCB6E56 /* Pods-JDIMOpen_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JDIMOpen_Tests/Pods-JDIMOpen_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JDIMOpen_Tests/Pods-JDIMOpen_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		68642DADD269032EF19938092411D39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A761AC59D3EEDE37EEE5B154C1ABBEBA /* Pods-JDIMOpen_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JDIMOpen_Example/Pods-JDIMOpen_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JDIMOpen_Example/Pods-JDIMOpen_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AEC1C6B89A10C39135B8BF571DD679BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17F13FEB71E80F487777F3A6576AE2F8 /* JDIMOpen.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JDIMOpen/JDIMOpen-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JDIMOpen/JDIMOpen-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JDIMOpen/JDIMOpen.modulemap";
+				PRODUCT_MODULE_NAME = JDIMOpen;
+				PRODUCT_NAME = JDIMOpen;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C39CE522A2D8EF1E84722E6A5F4F5F35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E140D034614E31BD1151B900691F69B4 /* Pods-JDIMOpen_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JDIMOpen_Example/Pods-JDIMOpen_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JDIMOpen_Example/Pods-JDIMOpen_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA74A8F9452FA0E3B6FFC600FA5AE8D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17F13FEB71E80F487777F3A6576AE2F8 /* JDIMOpen.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JDIMOpen/JDIMOpen-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JDIMOpen/JDIMOpen-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JDIMOpen/JDIMOpen.modulemap";
+				PRODUCT_MODULE_NAME = JDIMOpen;
+				PRODUCT_NAME = JDIMOpen;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E64570162FB45D65ABE60EC2FAB15E53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CE28D431A69A9AE0438967EFD379356 /* Pods-JDIMOpen_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JDIMOpen_Tests/Pods-JDIMOpen_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JDIMOpen_Tests/Pods-JDIMOpen_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9805089289DA5FF4CFCDEE2B616D758B /* Build configuration list for PBXNativeTarget "Pods-JDIMOpen_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E64570162FB45D65ABE60EC2FAB15E53 /* Debug */,
+				0C57CEDD248FF00B32CAA2F9E8B9F9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B615E402D6E5431DB4BC306609B9E53E /* Build configuration list for PBXNativeTarget "Pods-JDIMOpen_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68642DADD269032EF19938092411D39B /* Debug */,
+				C39CE522A2D8EF1E84722E6A5F4F5F35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F80EB7DD73C71E18E701A770515445E1 /* Build configuration list for PBXNativeTarget "JDIMOpen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC1C6B89A10C39135B8BF571DD679BC /* Debug */,
+				CA74A8F9452FA0E3B6FFC600FA5AE8D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

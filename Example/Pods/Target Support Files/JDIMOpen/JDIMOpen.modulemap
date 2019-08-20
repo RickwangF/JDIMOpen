@@ -1,0 +1,6 @@
+framework module JDIMOpen {
+  umbrella header "JDIMOpen-umbrella.h"
+
+  export *
+  module * { export * }
+}
