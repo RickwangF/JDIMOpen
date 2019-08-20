@@ -11,9 +11,7 @@
 #import "UIColor+ProjectTool.h"
 #import "UIImage+ProjectTool.h"
 #import "GIFImageView.h"
-//#import "ZSBaseUtil-Swift.h"
 #import <ZSBaseUtil/ZSBaseUtil-Swift.h>
-//#import "JDIMService-Swift.h"
 #import <JDIMService/JDIMService-Swift.h>
 #import "RefreshTool.h"
 #import <SDWebImage/UIImageView+WebCache.h>

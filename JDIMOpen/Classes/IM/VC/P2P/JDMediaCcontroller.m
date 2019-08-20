@@ -9,16 +9,12 @@
 #import "JDMediaCcontroller.h"
 #import "ZSLongPressCamareView.h"
 #import <AssetsLibrary/AssetsLibrary.h>
-//#import "TZImageManager.h"
 #import <TZImagePickerController/TZImageManager.h>
 #import "FrameLayoutTool.h"
-//#import "ZSBaseUtil-Swift.h"
 #import <ZSBaseUtil/ZSBaseUtil-Swift.h>
 #import "UIColor+ProjectTool.h"
 #import "UIImage+ProjectTool.h"
-//#import "ZSToastUtil-Swift.h"
 #import <ZSToastUtil/ZSToastUtil-Swift.h>
-//#import "JDLiveWindow.h"
 
 @interface JDCamareCcontroller ()<ZSLongPressCamareViewDelegate>
 @property (nonatomic, strong) ZSLongPressCamareView *camareView;  // 相机视图

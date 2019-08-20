@@ -8,7 +8,6 @@
 
 #import "JDSessionTipCell.h"
 #import "FrameLayoutTool.h"
-//#import "ZSBaseUtil-Swift.h"
 #import <ZSBaseUtil/ZSBaseUtil-Swift.h>
 #import "UIColor+ProjectTool.h"
 

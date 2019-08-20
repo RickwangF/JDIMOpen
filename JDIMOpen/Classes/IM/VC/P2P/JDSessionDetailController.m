@@ -9,26 +9,20 @@
 #import "JDSessionDetailController.h"
 #import "JDMediaCcontroller.h"
 #import "JDPreviewTool.h"
-#import "TZImagePickerController.h"
+#import <TZImagePickerController/TZImagePickerController.h>
 #import "JDSeverListController.h"
 #import "UIColor+ProjectTool.h"
 #import "FrameLayoutTool.h"
-//#import "ZSBaseUtil-Swift.h"
 #import <ZSBaseUtil/ZSBaseUtil-Swift.h>
 #import "UIImage+ProjectTool.h"
-//#import "JDNetService-Swift.h"
 #import <JDNetService/JDNetService-Swift.h>
 #import "JDIMNetworkSetting.h"
 #import "TZImageManager+Tool.h"
 #import <SDWebImage/UIImageView+WebCache.h>
-//#import "JDIMService-Swift.h"
 #import <JDIMService/JDIMService-Swift.h>
 #import "JDIMTool.h"
-//#import "ZSToastUtil-Swift.h"
 #import <ZSToastUtil/ZSToastUtil-Swift.h>
 #import "RefreshTool.h"
-//#import "JDSVideoDetailController.h"
-//#import "JDLiveWindow.h"
 
 static const NSInteger pageOfNumber = 20;
 

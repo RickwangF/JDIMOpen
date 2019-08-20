@@ -9,7 +9,6 @@
 #import "JDChatTimeHeader.h"
 #import "FrameLayoutTool.h"
 #import "UIColor+ProjectTool.h"
-//#import "ZSBaseUtil-Swift.h"
 #import <ZSBaseUtil/ZSBaseUtil-Swift.h>
 
 @interface JDChatTimeHeader ()
