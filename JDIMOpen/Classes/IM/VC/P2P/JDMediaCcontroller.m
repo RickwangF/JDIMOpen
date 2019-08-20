@@ -80,6 +80,11 @@
             if (error) {
                 [weak_self alertError];
             } else {
+                if (localIdentifier == nil || ![localIdentifier isKindOfClass:NSString.class]) {
+                    [ZSTipView showTip:@"请确认开启相册保存权限"];
+                    return;
+                }
+                
                 PHAsset *asset = [[PHAsset fetchAssetsWithLocalIdentifiers:@[localIdentifier] options:nil] firstObject];
                 [weak_self.delegate camareVideoFinish:asset];
                 [weak_self dismissViewControllerAnimated:YES completion:nil];
