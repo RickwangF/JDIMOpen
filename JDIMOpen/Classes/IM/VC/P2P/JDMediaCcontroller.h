@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "TZImagePickerController.h"
+//#import "TZImagePickerController.h"
+#import <TZImagePickerController/TZImagePickerController.h>
 
 @protocol JDCamareCcontrollerDelegate <NSObject>
 

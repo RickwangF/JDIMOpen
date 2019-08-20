@@ -9,7 +9,8 @@
 #import "JDMediaCcontroller.h"
 #import "ZSLongPressCamareView.h"
 #import <AssetsLibrary/AssetsLibrary.h>
-#import "TZImageManager.h"
+//#import "TZImageManager.h"
+#import <TZImagePickerController/TZImageManager.h>
 #import "FrameLayoutTool.h"
 //#import "ZSBaseUtil-Swift.h"
 #import <ZSBaseUtil/ZSBaseUtil-Swift.h>

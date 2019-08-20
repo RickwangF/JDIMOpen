@@ -6,7 +6,8 @@
 //  Copyright © 2019 张森. All rights reserved.
 //
 
-#import "TZImageManager.h"
+//#import "TZImageManager.h"
+#import <TZImagePickerController/TZImageManager.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
