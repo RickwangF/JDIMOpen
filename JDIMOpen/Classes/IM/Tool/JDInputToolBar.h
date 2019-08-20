@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 //#import "JDNIMManager.h"
-#import "JDIMService-Swift.h"
+//#import "JDIMService-Swift.h"
+#import <JDIMService/JDIMService-Swift.h>
 
 static const CGFloat toolBarH = 50;
 

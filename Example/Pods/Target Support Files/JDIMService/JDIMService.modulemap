@@ -1,0 +1,6 @@
+framework module JDIMService {
+  umbrella header "JDIMService-umbrella.h"
+
+  export *
+  module * { export * }
+}

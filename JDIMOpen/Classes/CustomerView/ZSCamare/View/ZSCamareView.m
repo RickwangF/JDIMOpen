@@ -8,8 +8,9 @@
 
 #import "ZSCamareView.h"
 #import <AVKit/AVKit.h>
-#import "ZSBaseUtil-Swift.h"
+//#import "ZSBaseUtil-Swift.h"
 #import "FrameLayoutTool.h"
+#import <ZSBaseUtil/ZSBaseUtil-Swift.h>
 
 @interface ZSCamareView ()<AVCaptureVideoDataOutputSampleBufferDelegate, AVCaptureAudioDataOutputSampleBufferDelegate, ZSAVAssetWriteManagerDelegate>
 @property (nonatomic, strong) AVCaptureSession *session;  // 会话

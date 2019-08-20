@@ -1,15 +1,69 @@
 PODS:
-  - JDIMOpen (0.1.0)
+  - Alamofire (4.8.2)
+  - JDIMOpen (0.1.0):
+    - JDIMService
+    - JDNetService
+    - lottie-ios
+    - MJExtension
+    - MJRefresh
+    - NIMSDK_LITE
+    - SDWebImage
+    - TZImagePickerController
+    - ZSBaseUtil
+    - ZSPreViewSDK
+    - ZSToastUtil
+  - JDIMService (0.0.1):
+    - NIMSDK_LITE
+  - JDNetService (0.0.2):
+    - Alamofire
+  - lottie-ios (2.5.3)
+  - MJExtension (3.1.0)
+  - MJRefresh (3.2.0)
+  - NIMSDK_LITE (6.8.1)
+  - SDWebImage (5.1.0):
+    - SDWebImage/Core (= 5.1.0)
+  - SDWebImage/Core (5.1.0)
+  - TZImagePickerController (3.2.1)
+  - ZSBaseUtil (0.0.9)
+  - ZSPreViewSDK (0.1.4)
+  - ZSToastUtil (0.0.2)
 
 DEPENDENCIES:
   - JDIMOpen (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - JDIMService
+    - JDNetService
+    - lottie-ios
+    - MJExtension
+    - MJRefresh
+    - NIMSDK_LITE
+    - SDWebImage
+    - TZImagePickerController
+    - ZSBaseUtil
+    - ZSPreViewSDK
+    - ZSToastUtil
 
 EXTERNAL SOURCES:
   JDIMOpen:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JDIMOpen: b579d1806bc1626ced7841e59d2fd5e731cb1283
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  JDIMOpen: 295f9413a6471c89625dc5bf2c9ad6f6805b1865
+  JDIMService: e20580aeaa52ddb8cfa5be3c17569f84f3876db9
+  JDNetService: ae3b6eadf8adb7bd0b109bf6d17769ff86467d0d
+  lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
+  MJExtension: 6b69b3bef2864fd550ce1a184eda219e321209d2
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  NIMSDK_LITE: 76019006f5247baff0c134a92a8db15e435bb6e7
+  SDWebImage: fb387001955223213dde14bc08c8b73f371f8d8f
+  TZImagePickerController: bf4c57b98d8707fce41ea6be872414a71c7a8c9d
+  ZSBaseUtil: c4480c358d5dd70743a6eb0db232359fb6bc483d
+  ZSPreViewSDK: e3c83e94886e7a599bcbe214eae2e2a70d70c19e
+  ZSToastUtil: c61bfc04cba848b8d41420795d5ded0eb3c9a1d6
 
 PODFILE CHECKSUM: 0bb840392a14436ec5b9e8b00b488949f213e158
 

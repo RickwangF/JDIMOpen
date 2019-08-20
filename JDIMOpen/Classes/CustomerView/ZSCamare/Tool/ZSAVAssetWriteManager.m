@@ -7,7 +7,8 @@
 //
 
 #import "ZSAVAssetWriteManager.h"
-#import "ZSBaseUtil-Swift.h"
+//#import "ZSBaseUtil-Swift.h"
+#import <ZSBaseUtil/ZSBaseUtil-Swift.h>
 #import "FrameLayoutTool.h"
 
 @interface ZSAVAssetWriteManager ()

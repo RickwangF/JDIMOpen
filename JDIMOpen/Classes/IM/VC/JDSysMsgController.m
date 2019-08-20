@@ -9,9 +9,11 @@
 #import "JDSysMsgController.h"
 #import "JDSysMsgView.h"
 #import "FrameLayoutTool.h"
-#import "ZSBaseUtil-Swift.h"
+//#import "ZSBaseUtil-Swift.h"
+#import <ZSBaseUtil/ZSBaseUtil-Swift.h>
 #import "UIColor+ProjectTool.h"
-#import "JDNetService-Swift.h"
+//#import "JDNetService-Swift.h"
+#import <JDNetService/JDNetService-Swift.h>
 #import "JDIMNetworkSetting.h"
 #import "LiveModuleStringTool.h"
 #import "JDIMTool.h"

@@ -7,7 +7,8 @@
 //
 
 #import "GIFImageView.h"
-#import "ZSBaseUtil-Swift.h"
+//#import "ZSBaseUtil-Swift.h"
+#import <ZSBaseUtil/ZSBaseUtil-Swift.h>
 #import <SDWebImage/UIImageView+WebCache.h>
 
 @interface GIFImageView ()

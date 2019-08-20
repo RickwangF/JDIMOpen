@@ -7,7 +7,9 @@
 //
 
 #import "JDIMTool.h"
-#import "JDIMService-Swift.h"
+//#import "JDIMService-Swift.h"
+#import <JDIMService/JDIMService-Swift.h>
+
 
 @interface JDIMTool ()
 

@@ -1,0 +1,6 @@
+framework module ZSPreviewSDK {
+  umbrella header "ZSPreviewSDK.h"
+
+  export *
+  module * { export * }
+}

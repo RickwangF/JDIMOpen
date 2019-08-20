@@ -9,8 +9,10 @@
 
 #import "JDIMNetworkSetting.h"
 #import <UIKit/UIKit.h>
-#import "ZSBaseUtil-Swift.h"
-#import "JDNetService-Swift.h"
+//#import "ZSBaseUtil-Swift.h"
+#import <ZSBaseUtil/ZSBaseUtil-Swift.h>
+//#import "JDNetService-Swift.h"
+#import <JDNetService/JDNetService-Swift.h>
 #import "JDIMTool.h"
 #import <AdSupport/AdSupport.h>
 

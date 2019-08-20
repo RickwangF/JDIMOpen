@@ -9,11 +9,13 @@
 #import "JDInputToolBar.h"
 #import "GIFImageView.h"
 #import "CustomButton.h"
-#import "ZSBaseUtil-Swift.h"
+//#import "ZSBaseUtil-Swift.h"
+#import <ZSBaseUtil/ZSBaseUtil-Swift.h>
 #import "FrameLayoutTool.h"
 #import "UIImage+ProjectTool.h"
 #import "UIColor+ProjectTool.h"
 #import "JDIMTool.h"
+#import <NIMSDK/NIMSDK.h>
 #import <AVFoundation/AVFoundation.h>
 
 // Mark - 录制语音的提示框
